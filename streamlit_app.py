@@ -46,5 +46,5 @@ Object Detection System: Build a system that can detect objects in images or vid
 Face Recognition System: Create a facial recognition system that can identify people from a database of images.
 Document Scanner App: Develop an app that scans physical documents and converts them into editable text using OCR (Optical Character Recognition).
 Hand Gesture Recognition: Create a system that recognizes hand gestures and translates them into commands for controlling a device.
-'''
+''')
    st.write("[Learn more >](https://chat.openai.com/)")
