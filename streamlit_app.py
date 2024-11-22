@@ -6,8 +6,8 @@ lottie_coding="https://lottiefiles.com/free-animation/coding-qNY7n4OjOK"
 with st.container():
    st.title("Hello Manan!! :wave:")
    st.header("Computer Science Project")
-with st.container():
    st.write("---")
+with st.container():
    left_column, right_column=st.columns(2)
    with left_column:
       st.write('''
