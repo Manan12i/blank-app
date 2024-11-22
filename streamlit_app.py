@@ -1,10 +1,17 @@
 import streamlit as st
 st.set_page_config(page_title="My Webpage",page_icon=":tada",layout="wide")
+
+lottie_coding="https://lottiefiles.com/free-animation/coding-qNY7n4OjOK"
+
 with st.container():
    st.title("Hello Manan!! :wave:")
    st.header("Computer Science Project")
-   st.write('''
-   Choosing a topic for a computer science project depends on your interests, the scope of your course, and the resources available. Below are some ideas across various subfields of computer science:
+with st.container():
+   st.write("---")
+   left_column, right_column=st.columns(2)
+   with left_column:
+      st.write('''
+      Choosing a topic for a computer science project depends on your interests, the scope of your course, and the resources available. Below are some ideas across various subfields of computer science:
 1. Artificial Intelligence & Machine Learning
 AI Chatbot: Create a chatbot using NLP that can understand and respond intelligently to user inputs.
 Emotion Recognition System: Build a system using computer vision and deep learning to identify human emotions from facial expressions.
@@ -39,33 +46,5 @@ Object Detection System: Build a system that can detect objects in images or vid
 Face Recognition System: Create a facial recognition system that can identify people from a database of images.
 Document Scanner App: Develop an app that scans physical documents and converts them into editable text using OCR (Optical Character Recognition).
 Hand Gesture Recognition: Create a system that recognizes hand gestures and translates them into commands for controlling a device.
-8. IoT (Internet of Things)
-Smart Home System: Develop a system to control home devices (lights, fans, etc.) using sensors and a mobile app.
-Temperature Monitoring System: Build an IoT device that monitors temperature in real-time and sends alerts if it goes above a threshold.
-Smart Agriculture: Create a system to monitor soil moisture, temperature, and humidity for efficient farming practices.
-Smart Parking System: Develop an IoT-based parking management system that can detect available parking spots and guide drivers.
-9. Game Development
-2D Platformer Game: Create a basic 2D side-scrolling game with features like scoring, levels, and power-ups.
-AI for Game Bots: Develop a game bot that can play a simple game (e.g., chess or tic-tac-toe) using AI algorithms.
-Augmented Reality Game: Build an AR game that uses the camera to overlay virtual elements onto the real world.
-10. Cloud Computing & DevOps
-Cloud-Based File Storage: Build a cloud storage system where users can upload, download, and organize their files.
-CI/CD Pipeline Setup: Create a continuous integration and delivery pipeline for automated software deployment.
-Microservices Architecture: Design and develop a microservices-based system, such as an e-commerce site, where different services (cart, payments, etc.) are independently scalable.
-11. Natural Language Processing (NLP)
-Text Summarization Tool: Create a tool that automatically summarizes long documents or articles into concise summaries.
-Language Translator: Build an application that translates text between multiple languages using machine learning or neural networks.
-Voice-to-Text System: Implement a system that converts voice input into text, useful for transcription services.
-12. Ethical Hacking
-Penetration Testing Toolkit: Develop a toolkit to simulate attacks and test the security of networks or applications.
-Web Application Security Scanner: Create a tool that scans web applications for common vulnerabilities (like XSS, SQL injection).
-Data Breach Detection: Build a system that checks if personal data has been compromised in any recent data breach.
-13. Virtual Reality (VR) / Augmented Reality (AR)
-VR Educational Game: Create an immersive educational VR game that teaches students about a specific subject, such as history or science.
-AR Navigation System: Develop an augmented reality-based navigation app that overlays directions on the real world through a smartphone screen.
-Virtual Tour App: Build an app that allows users to take a virtual tour of a place, like a museum or historical site.
-14. Human-Computer Interaction
-Gesture Control Interface: Create an interface that allows users to control a computer or app using hand gestures.
-Voice-Controlled Assistant: Develop a virtual assistant that can perform tasks based on voice commands (e.g., turning on/off lights, setting reminders).
-''')
+'''
    st.write("[Learn more >](https://chat.openai.com/)")
